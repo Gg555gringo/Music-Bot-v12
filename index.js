@@ -58,10 +58,10 @@ client.on("message", async message => {
 
     let embed = new MessageEmbed()
         .setTitle(`${client.user.username} is Here!`)
-        .setDescription(`Hey **${message.author.username},** I was made by <@${developerID}> 
+        .setDescription(`Hey **${message.author.username},** Este Bot Foi Feito pelo <@${developerID}> 
 
         Bot Prefix: \`${prefix}\`
-        Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
+        Link De Convite: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
 
         :question: Still need help? [Click Here](https://discord.gg/ZZ3SueTWmZ) to join server
         `)
@@ -107,7 +107,7 @@ cooldown.delete(message.author.id)}, cdseconds * 1000)
 
 
     if (!guild) {
-      return message.channel.send(`You can use this command in only premium server. \n **Want to make your server premium?** Donate US!: https://discord.gg/ZZ3SueTWmZ`)
+      return message.channel.send(`Você pode usar este comando apenas no servidor premium. \n **Quer tornar seu servidor premium?** Chame!:https://discord.gg/nEUWxy9eRQ`)
     }
 
   }
@@ -153,17 +153,17 @@ message.channel.send(`${math.evaluate(`${message.content} + 1`)}`)
 // Do not change anything here
 require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
- |              Informations               |
+ |              Informaçoes               |
  |-----------------------------------------|
- |• Alive: 24/7                            |
+ |• Online: 24/7                            |
  |-----------------------------------------|
- |• Author: Resilient rutzen 🇦🇷#0535        |
+ |• Criador: Gringo#2808        |
  |-----------------------------------------|
- |• Server: https://discord.gg/TEMauza     |
+ |• Server: https://discord.gg/nEUWxy9eRQ     |
  |-----------------------------------------|
- |• Github: https://github.com/Saddam171   |
+ |• Github: Indisponivel   |
  |-----------------------------------------|
- |• License: Apache License 2.0            |
+ |• Licensa: Apache License 2.0            |
  |-----------------------------------------|
 `)).listen(3000) //Dont remove this 
 
